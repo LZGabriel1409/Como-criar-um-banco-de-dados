@@ -17,7 +17,7 @@ use nomedoprojeto;
 Criar uma tabela:<br>
 create table nomedatabela ( <br>
   id int primary key auto_increment, <br>
-  nome varchar(150) <br>
+  nomevariavel tipovariavel <br>
 );
 
 Selecionar todas as colunas da tabela que deseja usar:<br>
@@ -25,3 +25,9 @@ select * from nomedatabela;
 
 Selecionar uma coluna específica que deseja usar:<br>
 select nomedacoluna from nomedatabela;
+
+Inserir dados nas tabelas:<br>
+insert into nomedatabela (nomevariavel) values ('dados');
+
+Atualizar o dado na tabela:
+update nomedatabela set nomevariavel = 'novodado' where id = numerodoid;
