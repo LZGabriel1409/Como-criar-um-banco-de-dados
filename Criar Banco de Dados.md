@@ -8,26 +8,26 @@
 
 <h1>Comandos em SQL:</h1>
 
-Criar um database:<br>
+<strong>Criar um database:<br></strong>
 create database nomedoprojeto;
 
-Selecionar qual database deseja usar:<br>
+<strong>Selecionar qual database deseja usar:<br></strong>
 use nomedoprojeto;
 
-Criar uma tabela:<br>
+<strong>Criar uma tabela:<br></strong>
 create table nomedatabela ( <br>
   id int primary key auto_increment, <br>
   nomevariavel tipovariavel <br>
 );
 
-Selecionar todas as colunas da tabela que deseja usar:<br>
+<strong>Selecionar todas as colunas da tabela que deseja usar:<br></strong>
 select * from nomedatabela;
 
-Selecionar uma coluna específica que deseja usar:<br>
+<strong>Selecionar uma coluna específica que deseja usar:<br></strong>
 select nomedacoluna from nomedatabela;
 
-Inserir dados nas tabelas:<br>
+<strong>Inserir dados nas tabelas:<br></strong>
 insert into nomedatabela (nomevariavel) values ('dados');
 
-Atualizar o dado na tabela:<br>
+<strong>Atualizar o dado na tabela:<br></strong>
 update nomedatabela set nomevariavel = 'novodado' where id = numerodoid;
