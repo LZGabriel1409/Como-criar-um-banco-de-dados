@@ -31,3 +31,6 @@ insert into nomedatabela (nomevariavel) values ('dados');
 
 <strong>Atualizar o dado na tabela:<br></strong>
 update nomedatabela set nomevariavel = 'novodado' where id = numerodoid;
+
+<strong>Apaga o dado que está salvo nesse id:<br></strong>
+delete from nomedatabela where id = numerodoid;
