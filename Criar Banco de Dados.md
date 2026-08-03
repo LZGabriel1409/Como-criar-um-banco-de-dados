@@ -29,5 +29,5 @@ select nomedacoluna from nomedatabela;
 Inserir dados nas tabelas:<br>
 insert into nomedatabela (nomevariavel) values ('dados');
 
-Atualizar o dado na tabela:
+Atualizar o dado na tabela:<br>
 update nomedatabela set nomevariavel = 'novodado' where id = numerodoid;
