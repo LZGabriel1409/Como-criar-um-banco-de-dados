@@ -2,7 +2,7 @@
 
 1 - Abra o Xampp e ligue MySQL<br>
 2 - Abra o MySQL Workbench<br>
-3 - Crie uma connection nele, com o nome root (verifique se o host e a porta estão corretas).<br>
+3 - Crie uma connection com o nome root (verifique se o host e a porta estão corretas, a porta deve ser igual a do Xampp e o host deve ser o ip correto.).<br>
 
 ----------------------
 
